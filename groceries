@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Online Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="eCommerceAssets/styles/eCommerceStyle.css" rel="stylesheet" type="text/css">
+<script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+</head>
+<body style="background-color: lightcyan">
+<div id="mainWrapper">
+  <header> 
+    <div style="font-size: 40px" id="LOGO"> 
+      <b style="color: maroon"><i style="font-family:Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif'">Tommy's Online<br> Grocery Shop</i></b> </div>
+    <div style="background-color: orangered" id="headerLinks"><a style="color: black" href="#" title="Login/Register">Login/Register</a></div>
+  </header>
+  <section id="offer" style="background-color: orange"> 
+    <!-- The offer section displays a banner text for promotions -->
+    <h2 style="color: red"><b style="font-size: 40px"><i style="font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif'">OFFER 50%!!!!!!!!!!</i></b></h2>
+    <p style="color: darkgreen"><b style="font-size: 25px">REALLY AWESOME!!!!<br> DISCOUNTS THIS EASTER HOLIDAY</b></p>
+  </section>
+  <div id="content">
+    <section style="background-color: green" class="sidebar"> 
+      <!-- This adds a sidebar with 1 searchbox,2 menusets, each with 4 links -->
+      <input type="text"  id="search" value="search">
+      <div id="menubar">
+        <nav class="menu">
+          <h2><!-- Title for menuset 1 -->FOOD PRODUCTS </h2>
+          <ul style="color: white">
+            <!-- List of links under menuset 1 -->
+            <li><a href="fruits and veges.htm" title="Link">Fruits and Vegetables</a></li>
+            <li><a href="meat.html" title="Link">Meat</a></li>
+            <li><a href="Frozen Food.html" title="Link">Frozen Food</a></li>
+			  <li><a href="beverages.html" title="Link">Beverages</a></li>
+			  <li><a href="Bakery.html" title="Link">Bakery</a></li>
+            <li class="notimp"><!-- notimp class is applied to remove this link from the tablet and phone views --><a href="Basics.html"  title="Link">Basics</a></li>
+          </ul>
+        </nav>
+        <nav class="menu">
+          <h2>HEALTH and SANITATION </h2>
+          <!-- Title for menuset 2 -->
+          <hr>
+          <ul>
+            <!--List of links under menuset 2 -->
+            <li><a href="detergents.html" title="Link">Detergents</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="mainContent">
+      <div class="productRow"><!-- Each product row contains info of 3 elements -->
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="C:\Users\melus\Dropbox\BITH 261 Assignment Question.zip\Online Shop\Bananas.jpg"></div>
+          <p class="price">$4.50/kg</p>
+          <p class="productContent">Bananas </p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="apple.png"></div>
+          <p class="price">$4.50/kg</p>
+          <p class="productContent">Apples</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="RedGrape.jpg"></div>
+          <p class="price">$7.00/kg</p>
+          <p class="productContent">Red Grapes</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+      </div>
+      <div class="productRow"> 
+        <!-- Each product row contains info of 3 elements -->
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="meat-beef.jpg"></div>
+          <p class="price">$6.50/kg</p>
+          <p class="productContent">Beef</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="avocado.jpg"></div>
+          <p class="price">$0.50 each</p>
+          <p class="productContent">Avocados</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="lettuce.jpg"></div>
+          <p class="price">$3.50kg</p>
+          <p class="productContent">Lettuce</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+      </div>
+      <div class="productRow">
+        <article class="productInfo"> <!-- Each individual product description -->
+          <div><img alt="sample" src="butternut.jpg"></div>
+          <p class="price">$5.00/kg</p>
+          <p class="productContent">Butternut</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="tomato.jpg"></div>
+          <p class="price">$4.50/kg</p>
+          <p class="productContent">Tomatoesr</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+        <article class="productInfo"><!-- Each individual product description -->
+          <div><img alt="sample" src="pepper.jpg"></div>
+          <p class="price">$10.50/kg</p>
+          <p class="productContent">Pepper</p>
+          <input style="background-color: darkgreen" type="button" name="button" value="Buy" class="buyButton">
+        </article>
+      </div>
+    </section>
+  </div>
+  <footer> 
+    <!-- This is the footer with default 3 divs -->
+    <div>
+      <p style="color: brown">Tommy's Grocery Shop offer groceries for customers to buy goods via the internet. Any form of payment is acceptable. We also offer free delivery to those that live in Zimbabwe</p>
+    </div>
+    <div>
+      <p style="color: black">For more information you can like our Facebook Page, follows us on Twitter or directy send an email to us through one of the links provided below</p>
+    </div>
+    <div class="footerlinks">
+      <p><a style="color: blue" href="#" title="Link">Facebook</a></p>
+      <p><a style="color: blue" href="#" title="Link">Twitter</a></p>
+      <p><a style="color: blue" href="#" title="Link">orderonline@tomaracodes.com</a></p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
